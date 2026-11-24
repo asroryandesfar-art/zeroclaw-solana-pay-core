@@ -1,0 +1,10 @@
+[sop]
+name = "verify-payments"
+description = "Authorized staff checks a persisted reference through the typed settlement MCP tool."
+version = "1.0.0"
+deterministic = true
+agent = "solpay"
+
+[[triggers]]
+type = "channel"
+channel = "whatsapp"

@@ -1,0 +1,41 @@
+{
+  "slot": 479289577,
+  "blockTime": 1785164135,
+  "meta": {
+    "err": null,
+    "preBalances": [1000000, 2039280, 0, 0],
+    "postBalances": [995000, 2039280, 0, 0],
+    "preTokenBalances": [
+      {
+        "accountIndex": 1,
+        "mint": "__MINT__",
+        "owner": "__OWNER__",
+        "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "uiTokenAmount": { "amount": "__PRE__", "decimals": 6, "uiAmountString": "__PRE_UI__" }
+      }
+    ],
+    "postTokenBalances": [
+      {
+        "accountIndex": 1,
+        "mint": "__MINT__",
+        "owner": "__OWNER__",
+        "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "uiTokenAmount": { "amount": "__POST__", "decimals": 6, "uiAmountString": "__POST_UI__" }
+      }
+    ]
+  },
+  "transaction": {
+    "signatures": ["fixtureSig"],
+    "message": {
+      "accountKeys": [
+        { "pubkey": "7tvCVTwWw7yuvTY4mEXyN7JKBg44saYNdahESURMMLXk", "signer": true, "source": "transaction", "writable": true },
+        { "pubkey": "__ACCOUNT__", "signer": false, "source": "transaction", "writable": true },
+        { "pubkey": "__REF__", "signer": false, "source": "transaction", "writable": false },
+        { "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA", "signer": false, "source": "transaction", "writable": false }
+      ],
+      "instructions": [
+        { "programIdIndex": 3, "accounts": [0, 1, 0, 2], "data": "__TRANSFER_DATA__" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+[skill]
+name = "create-invoice"
+description = "Create a persisted Solana Pay invoice using the typed solpay MCP tool."
+version = "1.0.0"

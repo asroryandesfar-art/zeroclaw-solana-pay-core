@@ -1,0 +1,4 @@
+[skill]
+name = "check-payment"
+description = "Settle a persisted invoice using the typed solpay MCP tool."
+version = "1.0.0"

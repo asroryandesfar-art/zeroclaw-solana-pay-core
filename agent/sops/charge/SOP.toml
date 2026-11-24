@@ -1,0 +1,10 @@
+[sop]
+name = "charge"
+description = "Authorized staff requests an invoice; typed MCP tool persists it and returns a Solana Pay URL."
+version = "1.0.0"
+deterministic = true
+agent = "solpay"
+
+[[triggers]]
+type = "channel"
+channel = "whatsapp"

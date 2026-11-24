@@ -1,0 +1,5 @@
+# Audited release toolchain. CI and buyer builds use the same compiler and
+# formatting/lint components rather than a moving stable channel.
+[toolchain]
+channel = "1.97.1"
+components = ["rustfmt", "clippy"]

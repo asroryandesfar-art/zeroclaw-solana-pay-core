@@ -1,0 +1,4 @@
+[skill]
+name = "send-qr"
+description = "Share the Solana Pay URL from a registered invoice; operator QR rendering remains available through the CLI."
+version = "1.0.0"

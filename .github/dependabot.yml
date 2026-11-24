@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: cargo
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    # These majors are breaking API changes we deliberately don't take yet
+    # (ureq 3.x reworks the client/error API; getrandom 0.4 changes the API).
+    # Minor/patch updates are still proposed.
+    ignore:
+      - dependency-name: "ureq"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "getrandom"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
