@@ -28,7 +28,7 @@ serde_json = "1"
 solana-pubkey = { version = "4.3.0", features = ["curve25519", "sha2"] }
 ureq = "2"
 url = "2"
-rusqlite = { version = "0.41.0", default-features = false, features = ["bundled", "backup"] }
+rusqlite = { version = "0.43.0", default-features = false, features = ["bundled", "backup"] }
 base64 = "0.22"
 ring = "0.17"
 
